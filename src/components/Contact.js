@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com";
 import { useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
   const [mailData, setMailData] = useState({
@@ -9,10 +10,15 @@ const Contact = () => {
   });
   const { name, email, message } = mailData;
   const [error, setError] = useState(null);
+  const recaptchaRef = React.createRef();
   const onChange = (e) =>
     setMailData({ ...mailData, [e.target.name]: e.target.value });
   const onSubmit = (e) => {
     e.preventDefault();
+
+    const recaptchaValue = recaptchaRef.current.getValue();
+    recaptchaRef.current.execute();
+
     if (name.length === 0 || email.length === 0 || message.length === 0) {
       setError(true);
       clearError();
@@ -20,16 +26,19 @@ const Contact = () => {
       // https://www.emailjs.com/
       emailjs
         .send(
-          "", // service id
-          "", // template id
+          "service_2aj18kf", // service id
+          "template_eurxean", // template id
           mailData,
-          "" // public api
+          "JGerNDPKfseGfLsTo" // public api
         )
         .then(
           (response) => {
             setError(false);
             clearError();
             setMailData({ name: "", email: "", message: "" });
+
+            // Reset recaptcha
+            recaptchaRef.current.reset();
           },
           (err) => {
             console.log(err.text);
@@ -108,6 +117,12 @@ const Contact = () => {
                       />
                     </div>
                     <div className="devman_tm_button" data-position="left">
+                    <ReCAPTCHA
+                    ref={recaptchaRef}
+                    sitekey=""
+                    size="invisible"
+                    onChange={onChangeReCAPTCHA}
+                    />
                       <input type="submit" value="Submit Message" />
                     </div>
                     {/* If you want to change mail address to yours, please open modal.php and go to line 4 */}
