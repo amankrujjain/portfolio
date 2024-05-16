@@ -53,7 +53,7 @@ const Home = () => {
                 <Image src="/img/thumbs/53-61.jpg" alt="" width={500} height={500} loading="eager" />
                 <div className="main" data-img-url={homeData.img} />
                 <span className="win">
-                  <Image src="/img/svg/javascript.svg" alt="" className="svg" height={500} width={500} />
+                  <Image src="/img/svg/javascript.svg" alt="" className="svg" height={500} width={500} loading="eager" />
                 </span>
                 <div className="numbers year">
                   <div className="wrapper">
