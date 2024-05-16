@@ -124,13 +124,13 @@ const Portfolio = () => {
                           <a href="#">Static</a>
                         </span>
                         <h3 className="title">
-                          <a href="#">
+                          <a href="https://brainwaveeai.netlify.app/">
                             Web Application for
                             <br /> Desiverse
                           </a>
                         </h3>
                         <span className="view_project">
-                          <a href="#">
+                          <a href="https://brainwaveeai.netlify.app/">
                             View Project <i className="icon-right-big" />
                           </a>
                         </span>
