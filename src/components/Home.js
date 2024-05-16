@@ -1,4 +1,5 @@
 import Counter from "./Counter";
+import Image from "next/image"
 
 const homeData = {
   firstName: "Aman",
@@ -49,10 +50,10 @@ const Home = () => {
             </div>
             <div className="right">
               <div className="image">
-                <img src="img/thumbs/53-61.jpg" alt="" />
+                <Image src="/img/thumbs/53-61.jpg" alt="" width={500} height={500} loading="eager" />
                 <div className="main" data-img-url={homeData.img} />
                 <span className="win">
-                  <img src="img/svg/javascript.svg" alt="" className="svg" />
+                  <Image src="/img/svg/javascript.svg" alt="" className="svg" height={500} width={500} />
                 </span>
                 <div className="numbers year">
                   <div className="wrapper">
@@ -80,7 +81,7 @@ const Home = () => {
                   </div>
                 </div>
                 <span className="circle anim_circle">
-                  <img src="img/hero/circle.png" alt="" />
+                  <Image src="/img/hero/circle.png" alt="" height={200} width={200} />
                 </span>
               </div>
             </div>

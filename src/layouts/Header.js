@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { scrollSection, stickyNav } from "../utilits";
+import Image from "next/image";
 
 const Header = () => {
   useEffect(() => {
@@ -13,7 +14,7 @@ const Header = () => {
         <div className="header_inner">
           <div className="logo">
             <a className="light" href="#">
-              <img src="img/logo/logo.png" alt="logo" />
+              <Image src="/img/logo/logo.png" alt="logo" height={100} width={100} />
             </a>
           </div>
           <div className="menu">
@@ -34,7 +35,7 @@ const Header = () => {
                 <a href="#contact">Contact</a>
               </li>
               <li className="download_cv">
-                <a href="img/cv/1.jpg" download>
+                <a href="public\pdf\Aman Kumar Ujjain-ex.pdf" download="Aman_Kumar_ujjain_cv.pdf">
                   Download CV
                 </a>
               </li>

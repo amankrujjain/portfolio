@@ -1,11 +1,12 @@
 import Popup from "./Popup";
+import Image from "next/image";
 
 const ServicePopup = ({ data, open, close }) => {
   return (
     <Popup open={open} close={close}>
       <div className="service_popup_informations">
         <div className="image">
-          <img src="img/thumbs/4-2.jpg" alt="" />
+          <Image src="/img/thumbs/4-2.jpg" alt="" height={500} width={500} />
           <div
             className="main"
             data-img-url={data.img}

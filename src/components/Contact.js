@@ -1,6 +1,9 @@
+import React from 'react';
 import emailjs from "emailjs-com";
+
 import { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
+
 
 const Contact = () => {
   const [mailData, setMailData] = useState({
@@ -17,17 +20,19 @@ const Contact = () => {
     e.preventDefault();
 
     const recaptchaValue = recaptchaRef.current.getValue();
+    console.log(recaptchaValue)
     recaptchaRef.current.execute();
-
+    
     if (name.length === 0 || email.length === 0 || message.length === 0) {
       setError(true);
       clearError();
     } else {
+
       // https://www.emailjs.com/
       emailjs
         .send(
           "service_2aj18kf", // service id
-          "template_eurxean", // template id
+          "itemplate_eurxean", // template id
           mailData,
           "JGerNDPKfseGfLsTo" // public api
         )
@@ -119,9 +124,8 @@ const Contact = () => {
                     <div className="devman_tm_button" data-position="left">
                     <ReCAPTCHA
                     ref={recaptchaRef}
-                    sitekey=""
+                    sitekey="6LfxetQpAAAAAPIaVDUVTns_JDLDIGxyvHkU8lIA"
                     size="invisible"
-                    onChange={onChangeReCAPTCHA}
                     />
                       <input type="submit" value="Submit Message" />
                     </div>

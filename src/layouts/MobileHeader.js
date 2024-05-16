@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Image from "next/image";
 
 const MobileHeader = () => {
   const [toggle, setToggle] = useState(false);
@@ -8,7 +9,7 @@ const MobileHeader = () => {
         <div className="mobile_in">
           <div className="logo">
             <a href="#">
-              <img src="img/logo/logo.png" alt="logo" />
+              <Image src="/img/logo/logo.png" alt="logo" height={100} width={100} />
             </a>
           </div>
           <div className="trigger">

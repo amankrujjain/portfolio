@@ -1,11 +1,12 @@
 import { Fragment, useState } from "react";
 import ServicePopup from "./popup/ServicePopup";
+import Image from "next/image"
 
 const serviceData = [
   {
     name: "Web Application",
-    icon: "img/svg/cpu.svg",
-    img: "img/service/1.jpg",
+    icon: "/img/svg/cpu.svg",
+    img: "/img/service/1.jpg",
     description: [
       "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
       "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
@@ -14,8 +15,8 @@ const serviceData = [
   },
   {
     name: "Mobile Responsive",
-    icon: "img/svg/phone.svg",
-    img: "img/service/2.jpg",
+    icon: "/img/svg/phone.svg",
+    img: "/img/service/2.jpg",
     description: [
       "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
       "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
@@ -24,8 +25,8 @@ const serviceData = [
   },
   {
     name: "Ecommerce",
-    icon: "img/svg/web.svg",
-    img: "img/service/3.jpg",
+    icon: "/img/svg/web.svg",
+    img: "/img/service/3.jpg",
     description: [
       "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
       "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
@@ -34,8 +35,8 @@ const serviceData = [
   },
   {
     name: "Website Maintenance",
-    icon: "img/svg/star.svg",
-    img: "img/service/4.jpg",
+    icon: "/img/svg/star.svg",
+    img: "/img/service/4.jpg",
     description: [
       "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
       "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
@@ -65,7 +66,7 @@ const Service = () => {
                     key={i}
                   >
                     <div className="list_inner">
-                      <img className="svg" src={service.icon} alt="" />
+                      <Image className="svg" src={service.icon} alt="" height={60} width={60} />
                       <h3 className="title">{service.name}</h3>
                       <p className="text">
                         {service.description[0].substring(0, 138)}.
@@ -77,10 +78,11 @@ const Service = () => {
                           setOpen(true);
                         }}
                       />
-                      <img
+                      <Image
                         className="popup_service_image"
-                        src="img/service/1.jpg"
+                        src="/img/service/1.jpg"
                         alt=""
+                        height={50} width={50}
                       />
                     </div>
                   </li>

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Partners = ({ dark }) => {
   return (
     <div className="devman_tm_section">
@@ -7,96 +9,104 @@ const Partners = ({ dark }) => {
             <ul>
               <li>
                 <div className="list_inner">
-                  <img
+                  <Image
                     className="wow fadeIn"
                     data-wow-duration="1s"
-                    src={`img/partners/${dark ? "light" : "dark"}/1.png`}
+                    src={`/img/partners/${dark ? "light" : "dark"}/1.png`}
                     alt=""
+                    height={90} width={211}
                   />
-                  <a className="devman_tm_full_link" a="" href="#" />
+                  <a className="devman_tm_full_link" href="#" />
                 </div>
               </li>
               <li>
                 <div className="list_inner">
-                  <img
+                  <Image
                     className="wow fadeIn"
                     data-wow-duration="1s"
                     data-wow-delay="0.2s"
-                    src={`img/partners/${dark ? "light" : "dark"}/2.png`}
+                    src={`/img/partners/${dark ? "light" : "dark"}/2.png`}
                     alt=""
+                    height={90} width={211}
                   />
-                  <a className="devman_tm_full_link" a="" href="#" />
+                  <a className="devman_tm_full_link" href="#" />
                 </div>
               </li>
               <li>
                 <div className="list_inner">
-                  <img
+                  <Image
                     className="wow fadeIn"
                     data-wow-duration="1s"
                     data-wow-delay="0.4s"
-                    src={`img/partners/${dark ? "light" : "dark"}/3.png`}
+                    src={`/img/partners/${dark ? "light" : "dark"}/3.png`}
                     alt=""
+                    height={90} width={211}
                   />
-                  <a className="devman_tm_full_link" a="" href="#" />
+                  <a className="devman_tm_full_link" href="#" />
                 </div>
               </li>
               <li>
                 <div className="list_inner">
-                  <img
+                  <Image
                     className="wow fadeIn"
                     data-wow-duration="1s"
                     data-wow-delay="0.6s"
-                    src={`img/partners/${dark ? "light" : "dark"}/4.png`}
+                    src={`/img/partners/${dark ? "light" : "dark"}/4.png`}
                     alt=""
+                    height={90} width={211}
                   />
-                  <a className="devman_tm_full_link" a="" href="#" />
+                  <a className="devman_tm_full_link" href="#" />
                 </div>
               </li>
               <li>
                 <div className="list_inner">
-                  <img
+                  <Image
                     className="wow fadeIn"
                     data-wow-duration="1s"
-                    src={`img/partners/${dark ? "light" : "dark"}/5.png`}
+                    src={`/img/partners/${dark ? "light" : "dark"}/5.png`}
                     alt=""
+                    height={90} width={211}
                   />
-                  <a className="devman_tm_full_link" a="" href="#" />
+                  <a className="devman_tm_full_link" href="#" />
                 </div>
               </li>
               <li>
                 <div className="list_inner">
-                  <img
+                  <Image
                     className="wow fadeIn"
                     data-wow-duration="1s"
                     data-wow-delay="0.2s"
-                    src={`img/partners/${dark ? "light" : "dark"}/6.png`}
+                    src={`/img/partners/${dark ? "light" : "dark"}/6.png`}
                     alt=""
+                    height={90} width={211}
                   />
-                  <a className="devman_tm_full_link" a="" href="#" />
+                  <a className="devman_tm_full_link" href="#" />
                 </div>
               </li>
               <li>
                 <div className="list_inner">
-                  <img
+                  <Image
                     className="wow fadeIn"
                     data-wow-duration="1s"
                     data-wow-delay="0.4s"
-                    src={`img/partners/${dark ? "light" : "dark"}/7.png`}
+                    src={`/img/partners/${dark ? "light" : "dark"}/7.png`}
                     alt=""
+                    height={90} width={211}
                   />
-                  <a className="devman_tm_full_link" a="" href="#" />
+                  <a className="devman_tm_full_link" href="#" />
                 </div>
               </li>
               <li>
                 <div className="list_inner">
-                  <img
+                  <Image
                     className="wow fadeIn"
                     data-wow-duration="1s"
                     data-wow-delay="0.6s"
-                    src={`img/partners/${dark ? "light" : "dark"}/8.png`}
+                    src={`/img/partners/${dark ? "light" : "dark"}/8.png`}
                     alt=""
+                    height={90} width={211}
                   />
-                  <a className="devman_tm_full_link" a="" href="#" />
+                  <a className="devman_tm_full_link" href="#" />
                 </div>
               </li>
             </ul>

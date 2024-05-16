@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const aboutData = {
   designation: "Developer",
   title: "I Develop Application that Help People",
@@ -6,10 +8,10 @@ const aboutData = {
     "Krnon proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis",
   ],
   skillIcons: [
-    { name: "react", icon: "img/svg/react.svg" },
-    { name: "nextjs", icon: "img/svg/next-js.svg" },
-    { name: "mondoDB", icon: "img/svg/mongodb.svg" },
-    { name: "express", icon: "img/svg/express.svg" },
+    { name: "react", icon: "/img/svg/react.svg" },
+    { name: "nextjs", icon: "/img/svg/next-js.svg" },
+    { name: "mondoDB", icon: "/img/svg/mongodb.svg" },
+    { name: "express", icon: "/img/svg/express.svg" },
   ],
 };
 
@@ -21,11 +23,11 @@ const About = () => {
           <div className="about_inner">
             <div className="left">
               <div className="image_wrap">
-                <img src="img/thumbs/64-49.jpg" alt="" />
+                <Image src="/img/thumbs/64-49.jpg" alt="" height={500} width={652} loading="eager" />
                 <div className="main" data-img-url="img/about/1.jpg" />
                 <div className="extra_image">
                   <div className="image_inner">
-                    <img src="img/thumbs/1-1.jpg" alt="" />
+                    <Image src="/img/thumbs/1-1.jpg" alt="" height={500} width={500} loading="eager" />
                     <div
                       className="main_extra"
                       data-img-url="img/about/2.jpg"
@@ -39,7 +41,7 @@ const About = () => {
                       data-wow-duration="1s"
                       data-wow-delay={`0.${i * 2}s`}
                     >
-                      <img className="svg" src={skill.icon} alt="" />
+                      <Image className="svg" src={skill.icon} alt="" height={150} width={150} loading="eager" />
                     </span>
                   </div>
                 ))}

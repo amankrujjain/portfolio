@@ -30,9 +30,11 @@ export const customCursor = () => {
     t = document.querySelector(".cursor-outer");
 
   function mouseEvent(element) {
+    // eslint-disable-next-line react/no-find-dom-node
     ReactDOM.findDOMNode(element).addEventListener("mouseenter", function () {
       e.classList.add("cursor-hover"), t.classList.add("cursor-hover");
     });
+    // eslint-disable-next-line react/no-find-dom-node
     ReactDOM.findDOMNode(element).addEventListener("mouseleave", function () {
       e.classList.remove("cursor-hover"), t.classList.remove("cursor-hover");
     });
@@ -85,6 +87,7 @@ export const aTagClick = () => {
   const aTag = document.querySelectorAll("[href='#']");
   for (let i = 0; i < aTag.length; i++) {
     const a = aTag[i];
+    // eslint-disable-next-line react/no-find-dom-node
     ReactDOM.findDOMNode(a).addEventListener("click", (e) => {
       e.preventDefault();
     });
@@ -106,28 +109,38 @@ export const imgToSVG = () => {
     const imgID = el.getAttribute("id");
     const imgClass = el.getAttribute("class");
     const imgURL = el.getAttribute("src");
-
+  
     fetch(imgURL)
       .then((data) => data.text())
       .then((response) => {
         const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(response, "text/html");
+        const xmlDoc = parser.parseFromString(response, "image/svg+xml");
         let svg = xmlDoc.querySelector("svg");
-
-        if (typeof imgID !== "undefined") {
+  
+        if (!svg) {
+          console.error("SVG content not found in the response.");
+          return;
+        }
+  
+        if (imgID) {
           svg.setAttribute("id", imgID);
         }
-
-        if (typeof imgClass !== "undefined") {
+  
+        if (imgClass) {
           svg.setAttribute("class", imgClass + " replaced-svg");
         }
-
+  
         svg.removeAttribute("xmlns:a");
+  
         if (el.parentNode) {
           el.parentNode.replaceChild(svg, el);
         }
+      })
+      .catch(error => {
+        console.error("Failed to fetch SVG:", error);
       });
   });
+  
 };
 
 export const activeSection = (value) => {

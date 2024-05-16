@@ -1,10 +1,12 @@
 import Popup from "./Popup";
+import Image from "next/image";
+
 const DetailsPopup = ({ open, close }) => {
   return (
     <Popup open={open} close={close}>
       <div className="popup_details">
         <div className="top_image">
-          <img src="img/thumbs/4-2.jpg" alt="" />
+          <Image src="/img/thumbs/4-2.jpg" alt="" height={500} width={500} />
           <div
             className="main"
             data-img-url="img/portfolio/4.jpg"
@@ -58,7 +60,7 @@ const DetailsPopup = ({ open, close }) => {
             <li>
               <div className="list_inner">
                 <div className="my_image">
-                  <img src="img/thumbs/4-2.jpg" alt="" />
+                  <Image src="/img/thumbs/4-2.jpg" alt="" height={500} width={500} />
                   <div className="main" data-img-url="img/service/1.jpg" />
                 </div>
               </div>
@@ -66,7 +68,7 @@ const DetailsPopup = ({ open, close }) => {
             <li>
               <div className="list_inner">
                 <div className="my_image">
-                  <img src="img/thumbs/4-2.jpg" alt="" />
+                  <Image src="/img/thumbs/4-2.jpg" alt="" height={500} width={500} />
                   <div className="main" data-img-url="img/service/2.jpg" />
                 </div>
               </div>
@@ -74,7 +76,7 @@ const DetailsPopup = ({ open, close }) => {
             <li>
               <div className="list_inner">
                 <div className="my_image">
-                  <img src="img/thumbs/4-2.jpg" alt="" />
+                  <Image src="/img/thumbs/4-2.jpg" alt="" height={500} width={500} />
                   <div className="main" data-img-url="img/service/3.jpg" />
                 </div>
               </div>

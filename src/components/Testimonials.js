@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { testimonialsSlider } from "../sliderProps";
 import { dataImage, imgToSVG } from "../utilits";
+import Image from "next/image";
+
 const Testimonials = () => {
   useEffect(() => {
     dataImage();
@@ -30,7 +32,7 @@ const Testimonials = () => {
             >
               <SwiperSlide>
                 <div className="list_inner">
-                  <img className="svg" src="img/svg/quote.svg" alt="" />
+                  <Image className="svg" src="/img/svg/quote.svg" alt="" height={100} width={100} />
                   <p className="text">
                     Duis aute irure dolor in repre hen derit in voluptate velit
                     esse cillum dolore eu fugiat nulla pariatur.
@@ -51,7 +53,7 @@ const Testimonials = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="list_inner">
-                  <img className="svg" src="img/svg/quote.svg" alt="" />
+                  <Image className="svg" src="/img/svg/quote.svg" alt="" height={100} width={100} />
                   <p className="text">
                     Duis aute irure dolor in repre hen derit in voluptate velit
                     esse cillum dolore eu fugiat nulla pariatur.
@@ -72,7 +74,7 @@ const Testimonials = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="list_inner">
-                  <img className="svg" src="img/svg/quote.svg" alt="" />
+                  <Image className="svg" src="/img/svg/quote.svg" alt="" height={100} width={100} />
                   <p className="text">
                     Duis aute irure dolor in repre hen derit in voluptate velit
                     esse cillum dolore eu fugiat nulla pariatur.
@@ -93,7 +95,7 @@ const Testimonials = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="list_inner">
-                  <img className="svg" src="img/svg/quote.svg" alt="" />
+                  <Image className="svg" src="/img/svg/quote.svg" alt="" height={100} width={100} />
                   <p className="text">
                     Duis aute irure dolor in repre hen derit in voluptate velit
                     esse cillum dolore eu fugiat nulla pariatur.
