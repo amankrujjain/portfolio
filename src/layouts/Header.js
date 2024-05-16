@@ -35,7 +35,7 @@ const Header = () => {
                 <a href="#contact">Contact</a>
               </li>
               <li className="download_cv">
-                <a href="public\pdf\Aman Kumar Ujjain-ex.pdf" download="Aman_Kumar_ujjain_cv.pdf">
+                <a href="/pdf/Aman Kumar Ujjain-ex.pdf" download="Aman_Kumar_ujjain_cv.pdf">
                   Download CV
                 </a>
               </li>
