@@ -32,7 +32,7 @@ const Contact = () => {
       emailjs
         .send(
           "service_2aj18kf", // service id
-          "itemplate_eurxean", // template id
+          "template_eurxean", // template id
           mailData,
           "JGerNDPKfseGfLsTo" // public api
         )
