@@ -1,11 +1,65 @@
 import { Fragment, useState } from "react";
 import DetailsPopup from "./popup/DetailsPopup";
 
+const portfolioItems = [
+  {
+    id: 1,
+    category: "Speed Transfer",
+    title: "Web Application for Desiverse",
+    imageUrl: "img/portfolio/1.jpg",
+    projectUrl: "https://example.com/project1",
+    imgThumb:"/img/thumbs/4-2.jpg",
+    additionalImgOne:"img/service/1.jpg",
+    additionalImgTwo:"img/service/2.jpg",
+    additionalImgThree:"img/service/3.jpg"
+  },
+  {
+    id: 2,
+    category: "FinixPe",
+    title: "Web Application for Desiverse",
+    imageUrl: "img/portfolio/2.jpg",
+    projectUrl: "https://example.com/project2",
+    imgThumb:"/img/thumbs/4-2.jpg",
+    additionalImgOne:"img/service/1.jpg",
+    additionalImgTwo:"img/service/2.jpg",
+    additionalImgThree:"img/service/3.jpg"
+  },
+  {
+    id: 3,
+    category: "Imsom",
+    title: "Web Application for Desiverse",
+    imageUrl: "img/portfolio/3.jpg",
+    projectUrl: "https://example.com/project3",
+    imgThumb:"/img/thumbs/4-2.jpg",
+    additionalImgOne:"img/service/1.jpg",
+    additionalImgTwo:"img/service/2.jpg",
+    additionalImgThree:"img/service/3.jpg"
+  },
+  {
+    id: 4,
+    category: "Chat Bot Static",
+    title: "Web Application for Desiverse",
+    imageUrl: "img/portfolio/4.jpg",
+    projectUrl: "https://example.com/project4",
+    imgThumb:"/img/thumbs/4-2.jpg",
+    additionalImgOne:"img/service/1.jpg",
+    additionalImgTwo:"img/service/2.jpg",
+    additionalImgThree:"img/service/3.jpg"
+  }
+];
+
 const Portfolio = () => {
   const [popup, setPopup] = useState(false);
+  const [currentProject, setCurrentProject] = useState(null);
+
+  const openPopup = (project) => {
+    setCurrentProject(project);
+    setPopup(true);
+  };
+
   return (
     <Fragment>
-      <DetailsPopup open={popup} close={() => setPopup(false)} />
+      <DetailsPopup open={popup} close={() => setPopup(false)} project={currentProject} />
       <div className="devman_tm_section" id="portfolio">
         <div className="devman_tm_portfolio">
           <div className="container">
@@ -19,130 +73,44 @@ const Portfolio = () => {
             </div>
             <div className="portfolio_list">
               <ul>
-                <li className="wow fadeInUp" data-wow-duration="1s">
-                  <div className="list_inner">
-                    <div
-                      className="background_image"
-                      data-img-url="img/portfolio/1.jpg"
-                    />
-                    <div className="content">
-                      <div className="details">
-                        <span className="category">
-                          <a href="#">Speed Transfer</a>
-                        </span>
-                        <h3 className="title">
-                          <a href="#">
-                            Web Application for
-                            <br /> Desiverse
-                          </a>
-                        </h3>
-                        <span className="view_project">
-                          <a href="#">
-                            View Project <i className="icon-right-big" />
-                          </a>
-                        </span>
+                {portfolioItems.map((item) => (
+                  <li key={item.id} className="wow fadeInUp" data-wow-duration="1s">
+                    <div className="list_inner">
+                      <div
+                        className="background_image"
+                        data-img-url={item.imageUrl}
+                        style={{ backgroundImage: `url(${item.imageUrl})` }}
+                      />
+                      <div className="content">
+                        <div className="details">
+                          <span className="category">
+                            <a href="#">{item.category}</a>
+                          </span>
+                          <h3 className="title">
+                            <a href="#">
+                              {item.title.split("<br />").map((line, index) => (
+                                <Fragment key={index}>
+                                  {line}
+                                  <br />
+                                </Fragment>
+                              ))}
+                            </a>
+                          </h3>
+                          <span className="view_project">
+                            <a href="#">
+                              View Project <i className="icon-right-big" />
+                            </a>
+                          </span>
+                        </div>
                       </div>
+                      <div className="overlay" />
+                      <a
+                        className="devman_tm_full_link portfolio_popup c-pointer"
+                        onClick={() => openPopup(item)}
+                      />
                     </div>
-                    <div className="overlay" />
-                    <a
-                      className="devman_tm_full_link popup-youtube"
-                      href=""
-                    />
-                  </div>
-                </li>
-                <li className="wow fadeInUp" data-wow-duration="1s">
-                  <div className="list_inner">
-                    <div
-                      className="background_image"
-                      data-img-url="img/portfolio/2.jpg"
-                    />
-                    <div className="content">
-                      <div className="details">
-                        <span className="category">
-                          <a href="#">Ecommerce</a>
-                        </span>
-                        <h3 className="title">
-                          <a href="#">
-                            Web Application for
-                            <br /> Desiverse
-                          </a>
-                        </h3>
-                        <span className="view_project">
-                          <a href="#">
-                            View Project <i className="icon-right-big" />
-                          </a>
-                        </span>
-                      </div>
-                    </div>
-                    <div className="overlay" />
-                    <a
-                      className="devman_tm_full_link popup-vimeo"
-                      href=""
-                    />
-                  </div>
-                </li>
-                <li className="wow fadeInUp" data-wow-duration="1s">
-                  <div className="list_inner">
-                    <div
-                      className="background_image"
-                      data-img-url="img/portfolio/3.jpg"
-                    />
-                    <div className="content">
-                      <div className="details">
-                        <span className="category">
-                          <a href="#">File Drive</a>
-                        </span>
-                        <h3 className="title">
-                          <a href="#">
-                            Web Application for
-                            <br /> Desiverse
-                          </a>
-                        </h3>
-                        <span className="view_project">
-                          <a href="#">
-                            View Project <i className="icon-right-big" />
-                          </a>
-                        </span>
-                      </div>
-                    </div>
-                    <div className="overlay" />
-                    <a
-                      className="devman_tm_full_link soundcloude_link mfp-iframe audio"
-                      href="#"
-                    />
-                  </div>
-                </li>
-                <li className="wow fadeInUp" data-wow-duration="1s">
-                  <div className="list_inner">
-                    <div
-                      className="background_image"
-                      data-img-url="img/portfolio/4.jpg"
-                    />
-                    <div className="content">
-                      <div className="details">
-                        <span className="category">
-                          <a href="#">Static</a>
-                        </span>
-                        <h3 className="title">
-                          <a href="https://brainwaveeai.netlify.app/">
-                            Web Application for
-                            <br /> Desiverse
-                          </a>
-                        </h3>
-                        <span className="view_project">
-                          <a href="https://brainwaveeai.netlify.app/">
-                            View Project <i className="icon-right-big" />
-                          </a>
-                        </span>
-                      </div>
-                    </div>
-                    <div className="overlay" />
-                    <a
-                      className="devman_tm_full_link portfolio_popup c-pointer"
-                      onClick={() => setPopup(true)}
-                    />
-                  </div>
-                </li>
+                  </li>
+                ))}
                 <div
                   className="shape_1 moving_effect"
                   data-direction="y"
@@ -161,4 +129,5 @@ const Portfolio = () => {
     </Fragment>
   );
 };
+
 export default Portfolio;
