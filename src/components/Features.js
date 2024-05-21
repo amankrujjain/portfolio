@@ -34,7 +34,6 @@ const Features = () => {
                   <div className="list_inner">
                     <div className="short">
                       <div className="title">
-                        <span>{`0${i + 1}`}</span>
                         <h3>{feature.title}</h3>
                       </div>
                       <div className="icon">

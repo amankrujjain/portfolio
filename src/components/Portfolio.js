@@ -18,7 +18,7 @@ const portfolioItems = [
     category: "FinixPe",
     title: "Web Application for Desiverse",
     imageUrl: "img/portfolio/2.jpg",
-    projectUrl: "https://example.com/project2",
+    projectUrl: "https://www.finixpe.com/",
     imgThumb:"/img/thumbs/4-2.jpg",
     additionalImgOne:"img/service/1.jpg",
     additionalImgTwo:"img/service/2.jpg",
@@ -29,7 +29,7 @@ const portfolioItems = [
     category: "Imsom",
     title: "Web Application for Desiverse",
     imageUrl: "img/portfolio/3.jpg",
-    projectUrl: "https://example.com/project3",
+    projectUrl: "https://www.imsom.org/",
     imgThumb:"/img/thumbs/4-2.jpg",
     additionalImgOne:"img/service/1.jpg",
     additionalImgTwo:"img/service/2.jpg",
@@ -40,7 +40,7 @@ const portfolioItems = [
     category: "Chat Bot Static",
     title: "Web Application for Desiverse",
     imageUrl: "img/portfolio/4.jpg",
-    projectUrl: "https://example.com/project4",
+    projectUrl: "https://brainwaveeai.netlify.app/",
     imgThumb:"/img/thumbs/4-2.jpg",
     additionalImgOne:"img/service/1.jpg",
     additionalImgTwo:"img/service/2.jpg",
@@ -67,8 +67,7 @@ const Portfolio = () => {
               <span>Portfolio</span>
               <h3>My Amazing Works</h3>
               <p>
-                Dliquip ex ea commo do conse namber onequa ute irure dolor in
-                reprehen derit in voluptate
+                Feel free to check out some of my work that I am proud of!
               </p>
             </div>
             <div className="portfolio_list">

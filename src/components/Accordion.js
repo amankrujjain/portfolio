@@ -4,22 +4,22 @@ const accordionData = [
   {
     title: "Work Strategy",
     details:
-      "Ut enim ad minim veniam, quis nostrud exercitation utur adipisicing elit, sed do eiusmod einisha chor amay vebona sukher mohona kobita tumi sopono carini hoye.",
+      "Strategic planning is key. My work strategy involves thorough research, efficient coding, and continuous testing to ensure top-quality results.",
   },
   {
-    title: "The Process of Our Work",
+    title: "The Process of Work",
     details:
-      "Ut enim ad minim veniam, quis nostrud exercitation utur adipisicing elit, sed do eiusmod einisha chor amay vebona sukher mohona kobita tumi sopono carini hoye.",
+      "My work process includes detailed planning, collaborative brainstorming, precise coding, rigorous testing, and seamless deployment to ensure exceptional outcomes.",
   },
   {
     title: "Core Value of Development",
     details:
-      "Ut enim ad minim veniam, quis nostrud exercitation utur adipisicing elit, sed do eiusmod einisha chor amay vebona sukher mohona kobita tumi sopono carini hoye.",
+      "Integrity, innovation, and excellence are my core values in development. They guide every project, ensuring high-quality, impactful results.",
   },
   {
     title: "Desire to Work Hard",
     details:
-      "Ut enim ad minim veniam, quis nostrud exercitation utur adipisicing elit, sed do eiusmod einisha chor amay vebona sukher mohona kobita tumi sopono carini hoye.",
+      "My desire to work hard drives my success. Commitment, perseverance, and a strong work ethic are at the heart of every project.",
   },
 ];
 

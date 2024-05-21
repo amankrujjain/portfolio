@@ -18,8 +18,7 @@ const Testimonials = () => {
             <span>Testimonial</span>
             <h3>What Clients Say</h3>
             <p>
-              Dliquip ex ea commo do conse namber onequa ute irure dolor in
-              reprehen derit in voluptate
+              A feedback is always important! Do check out my feedbacks
             </p>
           </div>
           <div
@@ -34,8 +33,7 @@ const Testimonials = () => {
                 <div className="list_inner">
                   <Image className="svg" src="/img/svg/quote.svg" alt="" height={100} width={100} />
                   <p className="text">
-                    Duis aute irure dolor in repre hen derit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                  Amazing service! The website looks fantastic and functions perfectly. Couldn&apos;t be happier with the results. Highly recommend!
                   </p>
                   <div className="details">
                     <div className="image">
@@ -45,8 +43,8 @@ const Testimonials = () => {
                       />
                     </div>
                     <div className="short">
-                      <h3>Selena Brook</h3>
-                      <span>ABC Studio</span>
+                      <h3>Shubham Gupta</h3>
+                      <span>CEO</span>
                     </div>
                   </div>
                 </div>
@@ -55,8 +53,7 @@ const Testimonials = () => {
                 <div className="list_inner">
                   <Image className="svg" src="/img/svg/quote.svg" alt="" height={100} width={100} />
                   <p className="text">
-                    Duis aute irure dolor in repre hen derit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                  Outstanding web development! Quick turnaround, professional design, and excellent communication. Our site has never looked better. Thanks!
                   </p>
                   <div className="details">
                     <div className="image">
@@ -66,8 +63,8 @@ const Testimonials = () => {
                       />
                     </div>
                     <div className="short">
-                      <h3>David Parker</h3>
-                      <span>Designer</span>
+                      <h3>Divyank</h3>
+                      <span>Owner</span>
                     </div>
                   </div>
                 </div>
@@ -76,8 +73,7 @@ const Testimonials = () => {
                 <div className="list_inner">
                   <Image className="svg" src="/img/svg/quote.svg" alt="" height={100} width={100} />
                   <p className="text">
-                    Duis aute irure dolor in repre hen derit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                  Top-notch work! Our new website is sleek, fast, and user-friendly. The team exceeded our expectations. Great job!
                   </p>
                   <div className="details">
                     <div className="image">
@@ -87,8 +83,8 @@ const Testimonials = () => {
                       />
                     </div>
                     <div className="short">
-                      <h3>Jessica Smith</h3>
-                      <span>Vivaco Group</span>
+                      <h3>Rahul Singh</h3>
+                      <span>Marketing Head</span>
                     </div>
                   </div>
                 </div>
@@ -97,8 +93,7 @@ const Testimonials = () => {
                 <div className="list_inner">
                   <Image className="svg" src="/img/svg/quote.svg" alt="" height={100} width={100} />
                   <p className="text">
-                    Duis aute irure dolor in repre hen derit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                  Fantastic experience! Delivered a stunning website that boosted our online presence significantly. Very pleased with the service!
                   </p>
                   <div className="details">
                     <div className="image">
@@ -108,8 +103,8 @@ const Testimonials = () => {
                       />
                     </div>
                     <div className="short">
-                      <h3>Collin Mattew</h3>
-                      <span>Photographer</span>
+                      <h3>Hemant Raj</h3>
+                      <span>CMA</span>
                     </div>
                   </div>
                 </div>

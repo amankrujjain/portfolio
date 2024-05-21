@@ -8,9 +8,9 @@ const serviceData = [
     icon: "/img/svg/cpu.svg",
     img: "/img/service/1.jpg",
     description: [
-      "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Devman, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "As a MERN stack developer, I specialize in creating dynamic web applications using MongoDB, Express.js, React, and Node.js. My expertise lies in building responsive user interfaces with React and managing server-side operations with Node.js. By leveraging Express.js, I develop robust back-end infrastructures, ensuring efficient data flow and application performance.",
+      "With a deep understanding of front-end and back-end technologies, I deliver full-stack solutions tailored to client needs. My skillset includes designing RESTful APIs, implementing user authentication, and optimizing web applications for speed and scalability. This versatility makes me invaluable in modern web development projects.",
+      "In addition to my technical skills, I excel in problem-solving and project management. I collaborate effectively with cross-functional teams, translating business requirements into functional code. My commitment to continuous learning ensures I stay updated with the latest industry trends and best practices, driving innovation and excellence in every project I undertake.",
     ],
   },
   {
@@ -18,9 +18,9 @@ const serviceData = [
     icon: "/img/svg/phone.svg",
     img: "/img/service/2.jpg",
     description: [
-      "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Devman, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "As a web developer, I specialize in creating responsive designs using custom CSS, Tailwind, and Bootstrap. My expertise lies in crafting visually appealing and user-friendly interfaces that adapt seamlessly to different devices and screen sizes. By leveraging the power of custom CSS, I can fine-tune the design details to meet specific project requirements and client preferences.",
+      "With a deep understanding of Tailwind and Bootstrap frameworks, I deliver efficient and scalable design solutions. Tailwind allows me to rapidly build custom designs with utility-first classes, while Bootstrap provides a robust foundation with its pre-designed components.",
+      "This combination enables me to create aesthetically pleasing and functional web applications that perform well across all devices.",
     ],
   },
   {
@@ -28,9 +28,9 @@ const serviceData = [
     icon: "/img/svg/web.svg",
     img: "/img/service/3.jpg",
     description: [
-      "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Devman, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "With my expertise in React, Node.js, and Express, I can help you create a secure, fast, and reliable e-commerce platform tailored to your needs. React's dynamic user interfaces ensure an engaging shopping experience, while Node.js and Express provide a robust backend that handles high traffic efficiently.",
+      "Security is a top priority. I implement industry-standard practices such as data encryption, secure payment gateways, and regular security audits to protect your customers' information. This ensures your e-commerce platform is safeguarded against potential threats, providing peace of mind for both you and your customers.",
+      "I focus on performance optimization to ensure your site loads quickly and operates smoothly. This includes efficient database management with MongoDB, seamless integrations, and responsive design for all devices. Let’s work together to build an e-commerce solution that stands out in today’s competitive market.",
     ],
   },
   {
@@ -38,9 +38,9 @@ const serviceData = [
     icon: "/img/svg/star.svg",
     img: "/img/service/4.jpg",
     description: [
-      "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Devman, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "I offer top-notch website maintenance services to ensure your site remains secure, fast, and reliable. Regular updates and performance optimizations are essential to keep your website running smoothly, and I am here to handle that for you.",
+      "I offer top-notch website maintenance services to ensure your site remains secure, fast, and reliable. Regular updates and performance optimizations are essential to keep your website running smoothly, and I am here to handle that for you.",
+      "Focusing on maintaining seamless user experience across all devices. This involves responsive design updates, improving load times, and ensuring compatibility with various browsers and platforms. My goal is to provide consistent, high-quality performance so that your website remains an asset to your business, attracting and retaining customers effectively.",
     ],
   },
 ];

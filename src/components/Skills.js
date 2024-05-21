@@ -14,8 +14,7 @@ const Skills = () => {
             <span>My Skills</span>
             <h3>I Develop Skills Regularly</h3>
             <p>
-              Dliquip ex ea commo do conse namber onequa ute irure dolor in
-              reprehen derit in voluptate
+              Web development is all about what you learn. Everyday is a progressive day.
             </p>
           </div>
           <div className="skills_wrapper">
@@ -108,6 +107,36 @@ const Skills = () => {
                   <span>
                     <span className="label">HTML5/CSS3</span>
                     <span className="number">95%</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="skillsInner___ progress_inner"
+                  data-value={90}
+                  data-color="#142eb5"
+                >
+                  <span>
+                    <span className="label">NestJs</span>
+                    <span className="number">90%</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="skillsInner___ progress_inner"
+                  data-value={75}
+                  data-color="#142eb5"
+                >
+                  <span>
+                    <span className="label">PostgreSQL</span>
+                    <span className="number">75%</span>
                   </span>
                   <div className="background">
                     <div className="bar">
