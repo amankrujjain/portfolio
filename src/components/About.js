@@ -1,11 +1,11 @@
 import Image from "next/image";
 
 const aboutData = {
-  designation: "Developer",
+  designation: "MERN Stack Developer",
   title: "I Develop Application that Help People",
   text: [
-    "Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat cupidatat",
-    "Krnon proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis",
+    "A highly skilled MERN Stack Developer with over two years of experience in designing and integrating complex web applications. Proficient in JavaScript, React.js, Node.js, MongoDB, PostgreSQL, NestJS, Next.Js, and Express.js, with additional expertise in CMS platforms like WordPress, Wix, and Shopify.",
+    " Adept at translating business requirements into technical solutions and passionate about implementing and launching new projects. Seeking to advance my career as a full-stack developer in a technology-driven firm.",
   ],
   skillIcons: [
     { name: "react", icon: "/img/svg/react.svg" },

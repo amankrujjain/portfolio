@@ -52,6 +52,21 @@ const Skills = () => {
                 </div>
                 <div
                   className="skillsInner___ progress_inner"
+                  data-value={87}
+                  data-color="#142eb5"
+                >
+                  <span>
+                    <span className="label">NestJs</span>
+                    <span className="number">87%</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="skillsInner___ progress_inner"
                   data-value={90}
                   data-color="#142eb5"
                 >
@@ -107,21 +122,6 @@ const Skills = () => {
                   <span>
                     <span className="label">HTML5/CSS3</span>
                     <span className="number">95%</span>
-                  </span>
-                  <div className="background">
-                    <div className="bar">
-                      <div className="bar_in" />
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="skillsInner___ progress_inner"
-                  data-value={90}
-                  data-color="#142eb5"
-                >
-                  <span>
-                    <span className="label">NestJs</span>
-                    <span className="number">90%</span>
                   </span>
                   <div className="background">
                     <div className="bar">

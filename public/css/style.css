@@ -1156,6 +1156,7 @@ h6 {
 }
 .devman_tm_portfolio ul li .background_image {
   position: absolute;
+  filter: opacity(0.8);
   top: 0px;
   bottom: 0px;
   left: 0px;
@@ -1206,7 +1207,8 @@ h6 {
   margin-bottom: 24px;
 }
 .devman_tm_portfolio ul li .title a {
-  color: #fff;
+  color: #060606;
+  text-shadow: 2px #fff;
   font-size: 36px;
   display: inline-block;
 }
@@ -1215,7 +1217,7 @@ h6 {
 }
 .devman_tm_portfolio ul li .view_project a {
   text-decoration: none;
-  color: #fff;
+  color: #090909;
   font-family: var(--font-family-extra);
   font-weight: 600;
   font-size: 16px;

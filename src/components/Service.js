@@ -6,7 +6,7 @@ const serviceData = [
   {
     name: "Web Application",
     icon: "/img/svg/cpu.svg",
-    img: "/img/service/1.jpg",
+    img: "/img/service/2.webp",
     description: [
       "As a MERN stack developer, I specialize in creating dynamic web applications using MongoDB, Express.js, React, and Node.js. My expertise lies in building responsive user interfaces with React and managing server-side operations with Node.js. By leveraging Express.js, I develop robust back-end infrastructures, ensuring efficient data flow and application performance.",
       "With a deep understanding of front-end and back-end technologies, I deliver full-stack solutions tailored to client needs. My skillset includes designing RESTful APIs, implementing user authentication, and optimizing web applications for speed and scalability. This versatility makes me invaluable in modern web development projects.",
@@ -16,7 +16,7 @@ const serviceData = [
   {
     name: "Mobile Responsive",
     icon: "/img/svg/phone.svg",
-    img: "/img/service/2.jpg",
+    img: "/img/service/1.webp",
     description: [
       "As a web developer, I specialize in creating responsive designs using custom CSS, Tailwind, and Bootstrap. My expertise lies in crafting visually appealing and user-friendly interfaces that adapt seamlessly to different devices and screen sizes. By leveraging the power of custom CSS, I can fine-tune the design details to meet specific project requirements and client preferences.",
       "With a deep understanding of Tailwind and Bootstrap frameworks, I deliver efficient and scalable design solutions. Tailwind allows me to rapidly build custom designs with utility-first classes, while Bootstrap provides a robust foundation with its pre-designed components.",
@@ -26,7 +26,7 @@ const serviceData = [
   {
     name: "Ecommerce",
     icon: "/img/svg/web.svg",
-    img: "/img/service/3.jpg",
+    img: "/img/service/4.webp",
     description: [
       "With my expertise in React, Node.js, and Express, I can help you create a secure, fast, and reliable e-commerce platform tailored to your needs. React's dynamic user interfaces ensure an engaging shopping experience, while Node.js and Express provide a robust backend that handles high traffic efficiently.",
       "Security is a top priority. I implement industry-standard practices such as data encryption, secure payment gateways, and regular security audits to protect your customers' information. This ensures your e-commerce platform is safeguarded against potential threats, providing peace of mind for both you and your customers.",
@@ -36,7 +36,7 @@ const serviceData = [
   {
     name: "Website Maintenance",
     icon: "/img/svg/star.svg",
-    img: "/img/service/4.jpg",
+    img: "/img/service/5.webp",
     description: [
       "I offer top-notch website maintenance services to ensure your site remains secure, fast, and reliable. Regular updates and performance optimizations are essential to keep your website running smoothly, and I am here to handle that for you.",
       "I offer top-notch website maintenance services to ensure your site remains secure, fast, and reliable. Regular updates and performance optimizations are essential to keep your website running smoothly, and I am here to handle that for you.",

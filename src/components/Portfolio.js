@@ -4,48 +4,49 @@ import DetailsPopup from "./popup/DetailsPopup";
 const portfolioItems = [
   {
     id: 1,
-    category: "Speed Transfer",
-    title: "Web Application for Desiverse",
-    imageUrl: "img/portfolio/1.jpg",
-    projectUrl: "https://example.com/project1",
+    category: "AI Image Generator",
+    title: "Web Application for AI Image",
+    imageUrl: "img/portfolio/3.png",
+    projectUrl: "https://ai-mage-generator-client.onrender.com",
     imgThumb:"/img/thumbs/4-2.jpg",
-    additionalImgOne:"img/service/1.jpg",
-    additionalImgTwo:"img/service/2.jpg",
-    additionalImgThree:"img/service/3.jpg"
+    additionalImgOne:"img/service/1.webp",
+    additionalImgTwo:"img/service/2.webp",
+    additionalImgThree:"img/service/3.webp"
   },
   {
     id: 2,
+    category: "Static Page",
+    title: "Chat Bot Static",
+    imageUrl: "img/portfolio/4.png",
+    projectUrl: "https://brainwaveeai.netlify.app/",
+    imgThumb:"/img/thumbs/4-2.jpg",
+    additionalImgOne:"img/service/1.webp",
+    additionalImgTwo:"img/service/2.webp",
+    additionalImgThree:"img/service/3.webp"
+  },
+  {
+    id: 3,
+    category: "Fintech",
+    title: "Speed Transfer",
+    imageUrl: "img/portfolio/1.jpg",
+    projectUrl: "https://example.com/project1",
+    imgThumb:"/img/thumbs/4-2.jpg",
+    additionalImgOne:"img/service/1.webp",
+    additionalImgTwo:"img/service/2.webp",
+    additionalImgThree:"img/service/3.webp"
+  },
+  {
+    id: 4,
     category: "FinixPe",
     title: "Web Application for Desiverse",
     imageUrl: "img/portfolio/2.jpg",
     projectUrl: "https://www.finixpe.com/",
     imgThumb:"/img/thumbs/4-2.jpg",
-    additionalImgOne:"img/service/1.jpg",
-    additionalImgTwo:"img/service/2.jpg",
-    additionalImgThree:"img/service/3.jpg"
+    additionalImgOne:"img/service/1.webp",
+    additionalImgTwo:"img/service/2.webp",
+    additionalImgThree:"img/service/3.webp"
   },
-  {
-    id: 3,
-    category: "Imsom",
-    title: "Web Application for Desiverse",
-    imageUrl: "img/portfolio/3.jpg",
-    projectUrl: "https://www.imsom.org/",
-    imgThumb:"/img/thumbs/4-2.jpg",
-    additionalImgOne:"img/service/1.jpg",
-    additionalImgTwo:"img/service/2.jpg",
-    additionalImgThree:"img/service/3.jpg"
-  },
-  {
-    id: 4,
-    category: "Chat Bot Static",
-    title: "Web Application for Desiverse",
-    imageUrl: "img/portfolio/4.jpg",
-    projectUrl: "https://brainwaveeai.netlify.app/",
-    imgThumb:"/img/thumbs/4-2.jpg",
-    additionalImgOne:"img/service/1.jpg",
-    additionalImgTwo:"img/service/2.jpg",
-    additionalImgThree:"img/service/3.jpg"
-  }
+  
 ];
 
 const Portfolio = () => {

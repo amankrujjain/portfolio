@@ -54,8 +54,8 @@ const DetailsPopup = ({ open, close, project }) => {
           <div className="detailbox">
             <ul>
               <li>
-                <span className="first">Client</span>
-                <span>Alvaro Morata</span>
+                <span className="first">Developer</span>
+                <span>Aam kumar ujjain</span>
               </li>
               <li>
                 <span className="first">Category</span>
