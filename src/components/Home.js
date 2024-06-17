@@ -34,8 +34,8 @@ const Home = () => {
                 <p className="text">{homeData.bio}</p>
                 <div className="buttons">
                   <div className="devman_tm_button">
-                    <a className="anchor" href="#contact">
-                      Get a Quote
+                    <a className="anchor" href="https://github.com/amankrujjain">
+                      View GitHub
                     </a>
                   </div>
                   <div className="simple_button">
