@@ -49,7 +49,7 @@ const MobileHeader = () => {
               <a href="#contact">Contact</a>
             </li>
             <li className="download_cv">
-              <a href="img/cv/1.jpg" download>
+              <a href="/pdf/Aman-updated.pdf" download>
                 Download CV
               </a>
             </li>
