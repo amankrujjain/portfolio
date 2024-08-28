@@ -24,13 +24,14 @@ const Index = () => {
   return (
     <Layout>
       <Head>
+        <link rel="icon" href="/img/logo/favicon.ico" />
         <title>Ujjain | Home</title>
       </Head>
       <MobileHeader />
       <Header />
       <Home />
       <Features />
-      <About /> 
+      <About />
       <CounterSection />
       <Portfolio />
       <Skills />
